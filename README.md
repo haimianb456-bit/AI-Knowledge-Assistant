@@ -404,23 +404,17 @@ Groq API 的使用受其账户套餐、额度和速率限制影响。本项目�
 - 本地 SQLite 数据、Chroma 向量库和相关运行数据需要自行备份。
 - ## 五、项目运行效果展示
 
-### 1. AI 智能对话与 Markdown 渲染
-
-支持自然语言问答，并对模型返回的 Markdown 内容进行格式化展示。
-
-![AI 智能对话](docs/images/chat.png)
-
-### 2. RAG 知识库管理
+### 1. RAG 知识库管理
 
 支持 Markdown、TXT、PDF、DOCX 等文档上传，完成文本解析、分块、本地 Embedding 向量化及 Chroma 向量存储。
 
-![RAG 知识库管理](docs/images/knowledge-base.png)
+![RAG 知识库管理](docs/images/A.png)
 
 ### 3. RAG 检索增强问答与来源引用
 
 基于知识库进行语义检索，将相关文本片段作为上下文交给大语言模型生成回答，并展示检索来源。
 
-![RAG 问答与来源引用](docs/images/rag-answer.png)
+![RAG 问答与来源引用](docs/images/B.png)
 
 ---
 
