@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# 本地向量库及模型缓存
+data/chroma/
+models/
